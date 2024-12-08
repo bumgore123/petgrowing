@@ -7,8 +7,8 @@ const HTML_MESSAGE = document.getElementById("messages")
 const HTML_PET = document.getElementById("pet")
 // TODO 1: Create petState object with happiness and energy properties (both starting at 50)
 let petState = {
-    happiness: 50,
-    energy: 50
+    happiness: 60,
+    energy: 60
 };
 
 // TODO 2: Implement this function that determines what each food does
