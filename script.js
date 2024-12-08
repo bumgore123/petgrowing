@@ -7,8 +7,8 @@ const HTML_MESSAGE = document.getElementById("messages")
 const HTML_PET = document.getElementById("pet")
 // TODO 1: Create petState object with happiness and energy properties (both starting at 50)
 let petState = {
-    happiness: 60,
-    energy: 60
+    happiness: 70,
+    energy: 70
 };
 
 // TODO 2: Implement this function that determines what each food does
@@ -146,3 +146,6 @@ HTML_TREAT_BTN.addEventListener(`click`, () => {
 HTML_VAGETABLE_BTN.addEventListener(`click`, () => {
     feedPet("vegetable")
 })
+
+HTML_HAPPINESS.innerText = petState.happiness
+HTML_ENERGY.innerText = petState.energy
